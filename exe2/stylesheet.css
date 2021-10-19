@@ -38,7 +38,7 @@
         }
         #logo {
             position:absolute;
-            right:5%px;
+            left:0px;
             opacity:0.75;
             border:none;
             height:200px;
