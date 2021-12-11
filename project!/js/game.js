@@ -10,9 +10,12 @@ console.log(solut==result);
 //         document.getElementById('exe').innerHTML = "תשובה נכונה";
 //     }
 // }
-let allCards = document.querySelectorAll('.card');
+// let allCards = document.querySelectorAll('.card');
 allCards.forEach((card) => card.addEventListener('click', checkCard));
-
+$('but').on('click', function() {
+  $('exe').text('Thanks!');
+});
+function checkSolution
 function checkCard(eventArgs) {
     console.log(eventArgs.target.id);
     eventArgs.target.classList.add('hide');
