@@ -11,7 +11,7 @@ console.log(solut==result);
 //     }
 // }
 // let allCards = document.querySelectorAll('.card');
-getElementById('but') => card.addEventListener('click', checkCard));
+getElementById('but') => but.addEventListener('click', checkCard));
 // allCards.forEach((card) => card.addEventListener('click', checkCard));
 // $('but').on('click', function() {
 //   $('exe').text('Thanks!');
