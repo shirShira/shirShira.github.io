@@ -1,0 +1,33 @@
+body {
+   background-color: darkcyan;
+   display: grid;
+   grid-template-columns: 50%, 50%;
+   grid-template-rows: 50%, 50%;
+}
+div{
+    border: 3px black solid;
+    margin: 5px;
+    padding: 10px;
+    font-family: serif;
+    font-size: 45px;
+    color: cyan;
+    border-radius: 10px;
+    background-color: darkmagenta;
+    height: 49px;
+}
+#pazel{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#car{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#remen{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#chidot{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}

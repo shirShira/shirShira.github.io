@@ -1,0 +1,38 @@
+#flex{
+    display: flex;
+    justify-content: space-between;
+}
+#pazel{
+    padding: 10px;
+    margin: 70px;
+    height: 75vh;
+    width: 75vh;
+    border: 7px solid red;
+    position: absolute;
+    top:1%;
+    left:1%;
+}
+#quest{
+    margin: 100px;
+}
+#cover{
+    height: 75vh;
+    width: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+    border: 7px solid red;
+    padding: 10px;
+    margin: 70px;
+    position: absolute;
+    top:1%;
+    left:1%;
+}
+.card{
+    height:25vh;
+    border:solid 1px;
+    background: burlywood;
+}
+.hide{
+    display: none;
+}
