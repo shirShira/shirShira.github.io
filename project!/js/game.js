@@ -11,10 +11,11 @@ console.log(solut==result);
 //     }
 // }
 // let allCards = document.querySelectorAll('.card');
-allCards.forEach((card) => card.addEventListener('click', checkCard));
-$('but').on('click', function() {
-  $('exe').text('Thanks!');
-});
+getElementById('but') => card.addEventListener('click', checkCard));
+// allCards.forEach((card) => card.addEventListener('click', checkCard));
+// $('but').on('click', function() {
+//   $('exe').text('Thanks!');
+// });
 function checkSolution
 function checkCard(eventArgs) {
     console.log(eventArgs.target.id);
