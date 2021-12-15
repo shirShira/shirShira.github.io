@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GAMES</title>
+    <link rel="stylesheet" href="../css/mathGame.css">
+</head>
+
+<body>
+    <div id="flex">
+        <div id="game">
+            <img src="../images/pazel1.png" id="pazel" >
+            
+            <div id="cover">
+                <div class="card" id="p1"></div>
+                <div class="card" id="p2"></div>
+                <div class="card" id="p3"></div>
+                <div class="card" id="p4"></div>
+                <div class="card" id="p5"></div>
+                <div class="card" id="p6"></div>
+                <div class="card" id="p7"></div>
+                <div class="card" id="p8"></div>
+                <div class="card" id="p9"></div>
+            </div>
+        </div>
+        <div id="quest">
+            <h1>פתור את התרגילים כדי לגלות את התמונה המוסתרת</h1>  
+            <h2 id="reflect"></h2>
+            <div id=exe></div>
+            <form id="frmExcersize" method="GET">
+                <input id="solution" type="text" placeholder="תוצאה"><br>
+                <input id="but" type="button" value="אישור">
+            </form>
+            
+            <h3 id="slt"></h3>
+            <div id="return"><a href="index.html" class="ret">חזרה לעיר</a></div>
+        </div>
+    </div>
+    <audio id="pazelSound">
+        <source src="../sound/tyaran.mp3" /></audio>
+    <div id="level">
+        <h2> שלום שם בחר רמת קושי:</h2>
+        <button class=lev id="1">קל</button>
+        <button class=lev id="2">בינוני</button>
+        <button class=lev id="3">קשה</button>
+    </div>
+    <div id="won">
+            <h1 id= winner>!!!!!!!!ניצחת</h1>
+            <button id="newGame">משחק חדש</button>
+    </div>
+    <script src="../js/game.js"></script>
+</body>
+
+</html>

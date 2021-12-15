@@ -1,0 +1,36 @@
+#sory {
+    background: rgb(241, 216, 146);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8vh;
+    border: 3px solid black;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 60vh;
+    margin-right: 60vh;
+    padding: 6vh;
+    box-shadow: 10px 10px 1px grey;
+}
+
+img {
+    width: 200px;
+    height: 240px;
+}
+
+#ret {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    border: 3px solid black;
+    padding: 3vh;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 40px;
+    background: rgb(241, 216, 146);
+}
+.but{
+    text-decoration: none;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GAMES</title>
+    <link rel="stylesheet" href="../css/connect.css">
+</head>
+
+<body>
+<a href="index.html"><div id="toGame"></div></a>
+        
+    </div>
+    <div id=center>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">התחבר</button>
+        <button onclick="document.getElementById('id011').style.display='block'" style="width:auto;">הירשם</button>       
+    </div>
+    <img  id="bird" src="../images/bird2.png">
+    <div id="welcome">!!ברוכים הבאים לעיר המשחקים</div>
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" onsubmit="return false" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <img src="../images/bird.png" alt= bird class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>מייל:</b></label>
+                <input type="text" id="1" placeholder="מייל" name="uname" required>
+
+                <label for="psw"><b>סיסמה:</b></label>
+                <input type="password" id="2" placeholder="סיסמה" name="psw" required>
+
+                <button type="submit" id="btnLogin">התחבר</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> זכור אותי!
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">ביטול</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div id="id011" class="modal">
+
+        <form class="modal-content animate" onsubmit="return false"  method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id011').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <img src="../images/bird.png" alt= bird class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>שם:</b></label>
+                <input type="text" id="3" placeholder="שם משתמש" name="uname" required>
+
+                <label for="psw"><b>סיסמה:</b></label>
+                <input type="password" id="5" placeholder="סיסמה" name="psw" required>
+                <label for="psw"><b>מייל:</b></label>
+                <input type="text" id="4" placeholder="מייל" name="psw" required>
+                <button type="submit" id="btnsignin">הירשם</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> זכור אותי!
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id011').style.display='none'"
+                    class="cancelbtn">ביטול</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/connect.js"></script>
+</body>
+
+</html>
